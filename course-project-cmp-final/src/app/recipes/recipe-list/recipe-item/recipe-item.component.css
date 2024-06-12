@@ -1,0 +1,60 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7; /* Light pastel grey background */
+    color: #333333; /* Dark text color */
+}
+
+.list-group-item {
+    background-color: #ffffff; /* White background */
+    border: 1px solid #e0e0e0; /* Light grey border */
+    color: #333333;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.list-group-item:hover, .list-group-item:focus {
+    background-color: #e8f5e9; /* Very light pastel green */
+    border-color: #c8e6c9; /* Light pastel green border */
+    text-decoration: none;
+}
+
+.list-group-item-heading {
+    font-size: 18px;
+    font-weight: bold;
+    color: #388e3c; /* Medium green */
+}
+
+.list-group-item-text {
+    color: #666666; /* Grey text */
+}
+
+.img-responsive {
+    max-height: 50px;
+    border-radius: 4px;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+/* Clearfix */
+.list-group-item::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+a {
+    color: inherit; /* Inherit color from parent */
+}
+
+a:hover, a:focus {
+    color: #388e3c; /* Medium green */
+}
