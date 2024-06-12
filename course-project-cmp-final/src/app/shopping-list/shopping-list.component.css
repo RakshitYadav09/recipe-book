@@ -1,0 +1,120 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7; /* Light pastel grey background */
+    color: #333333; /* Dark text color */
+}
+
+.container {
+    background-color: #ffffff; /* White background for container */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; /* Add some margin to the top */
+}
+
+.form-group {
+    margin-bottom: 20px; /* Add more spacing between form groups */
+}
+
+label {
+    color: #388e3c; /* Medium green for labels */
+}
+
+.form-control {
+    border: 1px solid #c8e6c9; /* Light pastel green border */
+    border-radius: 4px;
+    box-shadow: none; /* Remove default box shadow */
+    padding: 10px;
+}
+
+.form-control:focus {
+    border-color: #81c784; /* Slightly darker pastel green for focus */
+    box-shadow: 0 0 5px rgba(129, 199, 132, 0.5); /* Light green shadow */
+}
+
+.btn-success {
+    background-color: #a5d6a7; /* Light pastel green */
+    border-color: #81c784; /* Slightly darker pastel green */
+    color: #ffffff;
+    margin-right: 10px; /* Spacing between buttons */
+}
+
+.btn-success:hover, .btn-success:focus, .btn-success:active {
+    background-color: #81c784; /* Slightly darker pastel green */
+    border-color: #66bb6a; /* Darker pastel green */
+    color: #ffffff;
+}
+
+.btn-danger {
+    background-color: #ef9a9a; /* Light pastel red */
+    border-color: #e57373; /* Slightly darker pastel red */
+    color: #ffffff;
+    margin-right: 10px; /* Spacing between buttons */
+}
+
+.btn-danger:hover, .btn-danger:focus, .btn-danger:active {
+    background-color: #e57373; /* Slightly darker pastel red */
+    border-color: #ef5350; /* Darker pastel red */
+    color: #ffffff;
+}
+
+.btn-primary {
+    background-color: #90caf9; /* Light pastel blue */
+    border-color: #64b5f6; /* Slightly darker pastel blue */
+    color: #ffffff;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+    background-color: #64b5f6; /* Slightly darker pastel blue */
+    border-color: #42a5f5; /* Darker pastel blue */
+    color: #ffffff;
+}
+
+hr {
+    border: 1px solid #e0e0e0; /* Light grey */
+}
+
+/* List Group Styles */
+.list-group-item {
+    background-color: #ffffff; /* White background */
+    border: 1px solid #e0e0e0; /* Light grey border */
+    color: #333333;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.list-group-item:hover, .list-group-item:focus {
+    background-color: #e8f5e9; /* Very light pastel green */
+    border-color: #c8e6c9; /* Light pastel green border */
+    text-decoration: none;
+}
+
+.list-group-item:active {
+    background-color: #c8e6c9; /* Slightly darker pastel green */
+}
+
+ul.list-group {
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+ul.list-group a {
+    display: block;
+    text-decoration: none;
+}
+
+/* Additional Pastel Colors */
+h1, h2, h3, h4, h5, h6 {
+    color: #4e342e; /* Pastel brown for headings */
+}
+
+a {
+    color: #1976d2; /* Pastel blue for links */
+}
+
+a:hover, a:focus {
+    color: #0d47a1; /* Darker pastel blue for hovered links */
+}
