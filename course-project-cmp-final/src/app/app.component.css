@@ -1,0 +1,30 @@
+
+
+/* Container and Component Styles */
+.container {
+    background-color: #ffffff; /* White background for container */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+app-recipes, app-shopping-list {
+    margin-bottom: 20px;
+}
+
+/* Additional Pastel Colors */
+body {
+    background-color: #fff8e1; /* Light pastel yellow */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #4e342e; /* Pastel brown for headings */
+}
+
+a {
+    color: #1976d2; /* Pastel blue for links */
+}
+
+a:hover, a:focus {
+    color: #0d47a1; /* Darker pastel blue for hovered links */
+}

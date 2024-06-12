@@ -1,0 +1,62 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #2e7d32; /* Dark Green */
+    border-color: #1b5e20; /* Darker Green */
+}
+
+.navbar-brand {
+    color: #ffffff;
+}
+
+.navbar-brand:hover, .navbar-brand:focus {
+    color: #c8e6c9; /* Light Green */
+}
+
+.navbar-nav > li > a {
+    color: #ffffff;
+}
+
+.navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
+    background-color: #388e3c; /* Medium Green */
+    color: #c8e6c9;
+}
+
+.navbar-nav > .dropdown > a {
+    color: #ffffff;
+}
+
+.navbar-nav > .dropdown > a:hover, .navbar-nav > .dropdown > a:focus {
+    background-color: #388e3c;
+    color: #c8e6c9;
+}
+
+.navbar-nav > .dropdown > .dropdown-menu {
+    background-color: #388e3c;
+    border-color: #1b5e20;
+}
+
+.navbar-nav > .dropdown > .dropdown-menu > li > a {
+    color: #ffffff;
+}
+
+.navbar-nav > .dropdown > .dropdown-menu > li > a:hover, 
+.navbar-nav > .dropdown > .dropdown-menu > li > a:focus {
+    background-color: #4caf50; /* Even lighter Green */
+    color: #e8f5e9; /* Lightest Green */
+}
+
+.navbar-collapse {
+    border-color: #1b5e20;
+}
+
+.navbar-header .navbar-brand {
+    color: #ffffff;
+}
+
+.navbar-header .navbar-brand:hover {
+    color: #c8e6c9;
+}
