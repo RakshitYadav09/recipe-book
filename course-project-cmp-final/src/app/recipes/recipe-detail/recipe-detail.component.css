@@ -1,3 +1,14 @@
-img{
-    max-height: 300px;
+.dropdown-toggle{
+    background-color: #7dce81;
+    border-color: rgb(44, 147, 52);
+    border-width: 1px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+
+}
+.dropdown-menu {
+    background-color: #ffffff; /* White background for dropdown menu */
+    border: 2px solid #e0e0e0; /* Light grey border */
+    border-radius: 5px; /* Rounded corners for dropdown menu */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for dropdown menu */
 }
